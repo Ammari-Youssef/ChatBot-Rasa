@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - saba7 nour
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - thalla 
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - wah
+    - ah
+    - wayeh
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - la
+    - alla
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - wa3r
+    - frhan
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - z3fan
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: weather
+  examples: |
+- what's the weather
+- what is the temperature today
+- what is the temperature
+- i want to know the temperature
+- i want to know the weather of today
+- tell me the weather forecast
+- hows the weather today
+
+- intent: weather_for_location
+  examples:
+- what is the weather in [Tanger](location)
+- what is the weather in [Rabat](location)
+- weather of [Oujda] (location)
+- Today's weather in [Ahfir](location)
+- [Fez](location) weather
+- Tell me weather of [Casablanca](location)
+- Can you tell me weather of [London](location)
+
+- intent: city_info
+  examples:
+- [Rabat](location)
+- [Morocco](location)
+- [Casablanca](location)
+- [Tanger](location)
+- [Fez](location)
+- [Ahfir](location)
+- [London](location)
